@@ -1,16 +1,16 @@
 describe('Testes de acessibilidade', () => {
     it('Home', () =>{
-        cy.visit('https://db.tec.br/')
+        cy.visit('https://www.correios.com.br/')
         cy.pageAccessibility()
     })
 
     it('Home - Link', () =>{
-        cy.visit('https://db.tec.br/')
-        cy.componentAccessibility('a[href="https://db.tec.br/cultura/"]')
+        cy.visit('https://www.correios.com.br/')
+        cy.componentAccessibility('.bannerPrincipal')
     })
     
-    it('Contato', () =>{
-        cy.visit('https://db.tec.br/contato/')
+    it('Rastreamento', () =>{
+        cy.visit('https://rastreamento.correios.com.br/app/index.php')
         cy.pageAccessibility()
     })
 })
