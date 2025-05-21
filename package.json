@@ -1,0 +1,26 @@
+{
+  "name": "accessibility-test",
+  "version": "1.0.0",
+  "description": "\"# accessibility-test\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoJBorges/accessibility-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrunoJBorges/accessibility-test/issues"
+  },
+  "homepage": "https://github.com/BrunoJBorges/accessibility-test#readme",
+  "dependencies": {
+    "axe-core": "^4.10.3",
+    "cypress": "^14.3.3",
+    "cypress-axe": "^1.6.0"
+  }
+}
